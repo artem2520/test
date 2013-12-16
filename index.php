@@ -5,6 +5,7 @@ $yii=dirname(__FILE__).'/framework/yii.php';
 $env = getenv('APPLICATION_ENV');
 var_dump($env); die();
 echo('Hello World'); die();
+echo('Second commit, Merge me');die();
 if($env){
 	$config = dirname(__FILE__).'/protected/config/'.$env.'.php';
 } else{
